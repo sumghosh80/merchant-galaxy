@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1231
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchant-Galaxy", "Merchant-Galaxy\Merchant-Galaxy.csproj", "{2B45B3B1-D3FD-40C0-AD99-64222836C62F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchant-Galaxt-Test", "Merchant-Galaxt-Test\Merchant-Galaxt-Test.csproj", "{CF3B7792-A467-4960-B045-B1ECFA2A3FE0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2B45B3B1-D3FD-40C0-AD99-64222836C62F} = {2B45B3B1-D3FD-40C0-AD99-64222836C62F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B45B3B1-D3FD-40C0-AD99-64222836C62F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B45B3B1-D3FD-40C0-AD99-64222836C62F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B45B3B1-D3FD-40C0-AD99-64222836C62F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B45B3B1-D3FD-40C0-AD99-64222836C62F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3B7792-A467-4960-B045-B1ECFA2A3FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3B7792-A467-4960-B045-B1ECFA2A3FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3B7792-A467-4960-B045-B1ECFA2A3FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3B7792-A467-4960-B045-B1ECFA2A3FE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C688750-5897-4732-809E-2470F82866DE}
+	EndGlobalSection
+EndGlobal
